@@ -3,17 +3,17 @@
   "id": "matrix",
   "version": "1.0.0",
   "name": "Matrix Client",
-  "description": "Matrix Client ClickGUI Zero Lag para 1.21.x",
+  "description": "Matrix Client ClickGUI",
   "authors": ["Developer"],
   "contact": {},
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.MatrixMod"
+      "com.matrix.MatrixMod"
     ],
     "client": [
-      "com.MatrixClientMod"
+      "com.matrix.MatrixClientMod"
     ]
   },
   "depends": {
@@ -22,5 +22,4 @@
     "java": ">=21",
     "fabric-api": "*"
   }
-}	}
 }
